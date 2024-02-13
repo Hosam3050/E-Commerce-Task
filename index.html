@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    
+
+<!-- ///////////////////////////////////////////////////////////////////////// -->
+
+
+<div class="container">
+    <nav>
+        <a href="#" class="logo">product</a>
+        <div  class="search">
+            <input id="Search_Input" type="search" placeholder="search product">
+            <button id="ser" onclick="SearchItem()">search</button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        
+        <ul>
+            <li onclick="Shop()"><a href="#" class="const">Shop</a></li>
+            <li onclick="Filter('laptops')"><a href="#">LapTops</a></li>
+            <li onclick="Filter('smartphones')"><a href="#">smartphones</a></li>
+            <li onclick="Filter('fragrances')"><a href="#">fragrances</a></li>
+            <a href="cart.html"><i onload="GetCart()" class="fa-solid fa-cart-shopping"></i></a>
+        </ul>
+    </nav>
+
+<div id="my_product"></div>
+
+<!-- ////////////////////////////////////////////////////////////////////////////// -->
+
+
+</body>
+<script src="main.js"></script>  
+</html>
+
+
+
